@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/font/Chillax-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'CustomFont', sans-serif;
+}

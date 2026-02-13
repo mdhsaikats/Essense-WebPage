@@ -1,8 +1,13 @@
 import React from "react";
+import Banner from "./Banner";
+import Weeklypick from "./Weeklypick";
 
 const Landing = () => {
   return (
-    <div className="px-20 py-30 bg-black text-white text-center">Landing</div>
+    <>
+      <Banner />
+      <Weeklypick />
+    </>
   );
 };
 

@@ -67,6 +67,23 @@ const Navbar = () => {
             </button>
           </Link>
         </div>
+        <div className="flex items-end ml-auto gap-6">
+          <Link>
+            <button className="w-6 h-6 cursor-pointer scale-90 hover:scale-100 duration-300">
+              <img src="/icons/search.png" alt="search" />
+            </button>
+          </Link>
+          <Link>
+            <button className="w-6 h-6 cursor-pointer scale-90 hover:scale-100 duration-300">
+              <img src="/icons/user.png" alt="user" />
+            </button>
+          </Link>
+          <Link>
+            <button className="w-6 h-6 cursor-pointer scale-90 hover:scale-100 duration-300">
+              <img src="/icons/cart.png" alt="search" />
+            </button>
+          </Link>
+        </div>
       </Container>
     </nav>
   );
